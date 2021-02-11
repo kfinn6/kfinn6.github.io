@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[6],{ZOga:function(e,t,a){"use strict";a.r(t),a.d(t,"Architecture",(function(){return u}));var n=a("q1tI"),r=a.n(n),c=a("7oih"),l=a("JwsL"),u=function(){return r.a.createElement(c.a,null,r.a.createElement("article",{className:"container box style3"},r.a.createElement("header",null,r.a.createElement("h2",null,"stuff about architecture"))),r.a.createElement(l.a,null))};t.default=u}}]);
+//# sourceMappingURL=component---src-pages-architecture-js-443070165559c3e531cf.js.map

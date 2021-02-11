@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{g60q:function(e,t,a){"use strict";a.r(t),a.d(t,"Photography",(function(){return c}));var n=a("q1tI"),l=a.n(n),r=a("7oih"),o=a("JwsL"),c=function(){return l.a.createElement(r.a,null,l.a.createElement("article",{className:"container box style3"},l.a.createElement("header",null,l.a.createElement("h2",null,"stuff about photography"))),l.a.createElement(o.a,null))};t.default=c}}]);
+//# sourceMappingURL=component---src-pages-photography-js-4c5c20fefadb88b4528b.js.map

@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{KT0D:function(e,t,a){"use strict";a.r(t),a.d(t,"Travel",(function(){return u}));var n=a("q1tI"),l=a.n(n),r=a("7oih"),c=a("JwsL"),u=function(){return l.a.createElement(r.a,null,l.a.createElement("article",{className:"container box style3"},l.a.createElement("header",null,l.a.createElement("h2",null,"stuff about travel"))),l.a.createElement(c.a,null))};t.default=u}}]);
+//# sourceMappingURL=component---src-pages-travel-js-a76e21220a02bc29dbcb.js.map
