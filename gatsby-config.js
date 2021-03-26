@@ -2,6 +2,7 @@
 module.exports = {
   siteMetadata: {
     title: `My website`,
+    siteUrl: "https://gatsby-london.netlify.com",
     googleVerification: `abcdefz`,
     disqus: `gatsby-typescript`
   },
@@ -17,7 +18,13 @@ module.exports = {
         path: `${__dirname}/data`
       }
     },
-
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/assets/images`, // wherever background images are stored
+      },
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -82,6 +89,6 @@ module.exports = {
     // html file so the site works offline and is otherwise
     // resistant to bad networks. Works with almost any
     // site!
-    `gatsby-plugin-offline`
+    // `gatsby-plugin-offline`
   ]
 };

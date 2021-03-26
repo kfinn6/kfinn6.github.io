@@ -10,12 +10,16 @@ import {
   Header,
   Icon,
 } from "semantic-ui-react";
+import { useStaticQuery, graphql } from "gatsby"
+import BTCarousel from "../components/BTCarousel";
+import "../css/styles.css";
+
 
 const images = [
   { url: "https://4.img-dpreview.com/files/p/E~TS590x0~articles/3925134721/0266554465.jpeg" },
   { url: "https://live.staticflickr.com/2912/13981352255_fc59cfdba2_b.jpg" },
   { url: "https://miro.medium.com/max/1838/1*MI686k5sDQrISBM6L8pf5A.jpeg" },
-  { url: "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvdG98ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80" }
+  { url: "https://images.unsplash.com/photo-1554080353-a576cf803bda?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cGhvdG98ZW58MHx8MHw%3D&ixlib=rb-1.2.1&w=1000&q=80" },
 ];
 
 const IndexPage = (props: LayoutProps) =>
@@ -26,16 +30,9 @@ const IndexPage = (props: LayoutProps) =>
         Link={Link} pathname={props.location.pathname} items={menuItems} inverted
       />
       <br></br>
-      {/* <Container> */}
-      <div style={{
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-      }}>
-          
-      </div>
-        
-      {/* </Container> */}
+      <BTCarousel/>
+      
+
       
       {/* <Container text>
         <Header inverted as="h1">Kyle Finn</Header>
