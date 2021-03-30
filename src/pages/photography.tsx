@@ -2,6 +2,7 @@ import * as React from "react";
 import { Header, Container, Segment, Icon } from "semantic-ui-react";
 import {withLayout} from "../components/Layout";
 import Gallery from "react-photo-gallery";
+import { Link } from "gatsby";
 
 const photos = [
   {
