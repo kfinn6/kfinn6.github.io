@@ -5,7 +5,11 @@ import {withLayout} from "../components/Layout";
 const GradPage = () => {
   return (
     <Container>
-      <Header as="h2">grad</Header>
+      <br></br>
+      <Header as="h2">Graduation</Header>
+      <p>My name is Kyle Finn and I am going to be taking graduation photos for the upcoming Spring 2021 graduation! This will be my third year taking photos and my prices are $65 for individual shoots, and group pricing varies so please contact me for pricing!</p>
+      <p>Contact info: <a href="https://www.instagram.com/kyle_finn6/" target="_blank">Instagram </a> and <a href="mailto:kylef1@vt.edu" target="_blank">Email</a></p>
+      <p>There is no limit on photos you can have edited or a number of locations, and there is no payment required until you are 100% happy with your edited photos! I am also always willing to work with you on pricing and payment. If you would like to book please use any of the contact information above. Also, if you would like to view some of my previous shoots take a look below!</p>
       <Segment vertical>
         <Grid>
           <Grid.Row columns={2}>
