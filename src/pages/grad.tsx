@@ -33,7 +33,7 @@ const GradPage = () => {
       </Grid>
       
       <Segment vertical>
-        <Grid>
+        <Grid stackable>
           <Grid.Row columns={2}>
             <Grid.Column>
               
