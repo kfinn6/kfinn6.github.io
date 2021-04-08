@@ -90,5 +90,5 @@ module.exports = {
     // resistant to bad networks. Works with almost any
     // site!
     // `gatsby-plugin-offline`
-  ]
+    ]
 };
